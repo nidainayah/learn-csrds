@@ -1,0 +1,38 @@
+`Which topic did you choose to apply the data science methodology to?`
+I chose email as a topic to apply data science methodology. As customer service, customer often sends complaints, questions, and feedback through email. In the current business, understanding customer sentiment is crucial for maintaining customer satisfaction and loyalty. Companies often receive large volume of customer feedback via email that contains valuable insights. However, manually analyzing these feedbacks are time-consuming and inefficient. This project aims to leverage data science methodologies to automatically analyze the sentiment of email customer feedbacks.
+
+`Business Understanding
+Describe the problem, related to the topic you selected.
+Phrase the problem as a question to be answered using data.`
+
+**Business Problems**
+In current business, understanding customer sentiment is crucial for maintaining customer satisfaction and increasing customer loyalty. Companies often receive customer feedbacks via email that contains valuable insights. However, manually analyzing these feedbacks are time-consuming and inefficient. 
+**Business Questions**
+- What are the common sentiments expressed by customer in customer feedback emails?
+- How does customer sentiment vary over time?
+- How does customer sentiment response to specific events over period?
+
+**1. Analytic Approach**
+This project involves multiple type of analysis, primarily focusing on descriptive and predictive analysis.
+- Descriptive analysis to understand the current state of customer feedback and summarizing it through statistics and visualization. 
+- Predictive analysis to predict future outcomes based on historical data (classify customer feedback as positive, negative, neutral)
+
+**2. Data Requirements**
+- Customer feedback dataset: a dataset of customer feedback emails received over a specific period
+- Metadata: email timestamps, customer demography, product / service they talk about
+
+**3. Data Collection**
+- Collect customer feedback emails
+- Clean and preprocess textdata (remove stopwords, tokenize, normalisation text, feature extraction)
+
+**4. Data Understanding and Preparation**
+- Descriptive statistics: calculate basic statistics (word counts, sentence length)
+- Visualisation: use visualisation tools (word cloud, bar chart) to identify frequently mentioned keywords and common themes
+- Sentiment distribution: visualize distribution of sentiments across dataset
+
+**5. Modeling and Evaluation**
+- Sentiment Analysis models can be done using machine learning models to train supervised learning models using labeled training data (svm, random forest), or using deep learning models to develop and train neural network-based models (LSTM, BERT) for more accurate sentiment classification
+- Model training & validation: split data into training and validation sets, perform cross validation
+- Model evaluation: use metrics such as accuracy, precision, recall, F1 score to evaluate model performance
+- Confusion matrix: to understand the types of errors made by the models
+- Comparison: compare the performance of different models to select the best performing model.
